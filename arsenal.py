@@ -12,7 +12,7 @@ class Arsenal:
         self.settings = game.settings
         self.arsenal = pygame.sprite.Group()
 
-    def update_arsenal(self)
+    def update_arsenal(self):
         self.arsenal.update()
         self._remove_bullets_offscreen()
         
